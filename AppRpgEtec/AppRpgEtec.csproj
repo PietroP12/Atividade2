@@ -67,22 +67,16 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <AndroidResource Remove="NewFolder\**" />
 	  <AndroidResource Remove="Views\Armas - Copy\**" />
 	  <AndroidResource Remove="Views\NewFolder\**" />
-	  <Compile Remove="NewFolder\**" />
 	  <Compile Remove="Views\Armas - Copy\**" />
 	  <Compile Remove="Views\NewFolder\**" />
-	  <EmbeddedResource Remove="NewFolder\**" />
 	  <EmbeddedResource Remove="Views\Armas - Copy\**" />
 	  <EmbeddedResource Remove="Views\NewFolder\**" />
-	  <MauiCss Remove="NewFolder\**" />
 	  <MauiCss Remove="Views\Armas - Copy\**" />
 	  <MauiCss Remove="Views\NewFolder\**" />
-	  <MauiXaml Remove="NewFolder\**" />
 	  <MauiXaml Remove="Views\Armas - Copy\**" />
 	  <MauiXaml Remove="Views\NewFolder\**" />
-	  <None Remove="NewFolder\**" />
 	  <None Remove="Views\Armas - Copy\**" />
 	  <None Remove="Views\NewFolder\**" />
 	</ItemGroup>
@@ -137,10 +131,6 @@
 		<MauiXaml Update="Views\Usuarios\LoginView.xaml">
 			<Generator>MSBuild:Compile</Generator>
 		</MauiXaml>
-	</ItemGroup>
-
-	<ItemGroup>
-		<Folder Include="PrintsAvaliacao\" />
 	</ItemGroup>
 
 </Project>
